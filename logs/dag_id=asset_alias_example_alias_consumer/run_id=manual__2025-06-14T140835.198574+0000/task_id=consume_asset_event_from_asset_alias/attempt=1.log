@@ -1,0 +1,10 @@
+{"timestamp":"2025-06-14T14:08:36.705870","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-14T14:08:36.706519","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_asset_alias.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-14T14:08:37.516906Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-14T14:08:37.517750Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-14T14:08:37.518151Z","level":"info","event":"Current task name:consume_asset_event_from_asset_alias","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-14T14:08:37.519139Z","level":"info","event":"Dag name:asset_alias_example_alias_consumer","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-14T14:08:37.534269","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-06-14T14:08:37.555804Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-14T14:08:37.556333Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-14T14:08:37.556627Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): consume_asset_event_from_asset_alias>","chan":"stdout","logger":"task"}
