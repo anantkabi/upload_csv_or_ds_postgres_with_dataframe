@@ -21,6 +21,7 @@ This project demonstrates how to automate the process of loading a CSV or datase
 │       └── loan_data.csv
 ├── requirements.txt
 └── README.md
+
 ```
 
 ## 🛠️ Setup Instructions
