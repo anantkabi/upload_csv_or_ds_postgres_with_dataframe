@@ -1,0 +1,15 @@
+{"timestamp":"2025-06-20T17:23:29.950035","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-20T17:23:29.950502","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/file_to_postgres_dataframe.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T17:23:29.997102Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T17:23:29.998293Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T17:23:29.998807Z","level":"info","event":"Current task name:insert_csv_into_postgres_db_using_hook_and_df","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T17:23:29.999234Z","level":"info","event":"Dag name:load_csv_to_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T17:23:30.022423","level":"info","event":"Connection Retrieved 'postgres_airflow_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-20T17:23:31.486899","level":"info","event":"Loaded 1000 rows into loan_data so far","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T17:23:33.818468","level":"info","event":"Loaded 2000 rows into loan_data so far","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T17:23:34.315473","level":"info","event":"Loaded 2200 rows into loan_data so far","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T17:23:34.316440","level":"info","event":"Done loading. Loaded a total of 2200 rows into loan_data","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T17:23:34.319306","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-06-20T17:23:34.357811Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T17:23:34.358401Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T17:23:34.358851Z","level":"info","event":"Task operator:<Task(PythonOperator): insert_csv_into_postgres_db_using_hook_and_df>","chan":"stdout","logger":"task"}

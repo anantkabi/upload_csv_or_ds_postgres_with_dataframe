@@ -1,0 +1,14 @@
+{"timestamp":"2025-06-20T14:51:43.124125","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-20T14:51:43.124948","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T14:51:43.216521Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T14:51:43.218038Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T14:51:43.219199Z","level":"info","event":"Current task name:insert_data_into_table","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T14:51:43.220204Z","level":"info","event":"Dag name:postrgres-connecter","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T14:51:43.189318","level":"info","event":"Executing: \n            INSERT INTO Orders VALUES (21, 'delivered')\n        ","logger":"airflow.task.operators.airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator"}
+{"timestamp":"2025-06-20T14:51:43.234172","level":"info","event":"Connection Retrieved 'postgres_airflow_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-20T14:51:43.249227","level":"info","event":"Connection Retrieved 'postgres_airflow_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-20T14:51:43.264303","level":"info","event":"Running statement: \n            INSERT INTO Orders VALUES (21, 'delivered')\n        , parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T14:51:43.271728","level":"info","event":"Rows affected: 1","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T14:51:43.307018Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T14:51:43.307691Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T14:51:43.308291Z","level":"info","event":"Task operator:<Task(SQLExecuteQueryOperator): insert_data_into_table>","chan":"stdout","logger":"task"}

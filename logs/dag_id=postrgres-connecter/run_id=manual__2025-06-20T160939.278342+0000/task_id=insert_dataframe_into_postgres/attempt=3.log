@@ -1,0 +1,15 @@
+{"timestamp":"2025-06-20T16:19:46.122736","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-20T16:19:46.123499","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T16:19:46.211884Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T16:19:46.214462Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T16:19:46.215211Z","level":"info","event":"Current task name:insert_dataframe_into_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T16:19:46.215991Z","level":"info","event":"Dag name:postrgres-connecter","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T16:19:46.239459","level":"info","event":"Connection Retrieved 'postgres_airflow_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-20T16:19:49.170951","level":"info","event":"Loaded 1000 rows into loan_data so far","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T16:19:51.442896","level":"info","event":"Loaded 2000 rows into loan_data so far","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T16:19:51.862526","level":"info","event":"Loaded 2200 rows into loan_data so far","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T16:19:51.863074","level":"info","event":"Done loading. Loaded a total of 2200 rows into loan_data","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T16:19:51.864716","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-06-20T16:19:51.892743Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T16:19:51.893597Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T16:19:51.894255Z","level":"info","event":"Task operator:<Task(PythonOperator): insert_dataframe_into_postgres>","chan":"stdout","logger":"task"}

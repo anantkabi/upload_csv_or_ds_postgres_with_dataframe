@@ -1,0 +1,13 @@
+{"timestamp":"2025-06-20T16:09:40.781913","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-20T16:09:40.782754","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T16:09:40.865975Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T16:09:40.866908Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T16:09:40.867292Z","level":"info","event":"Current task name:recreate_postgres_table","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T16:09:40.867623Z","level":"info","event":"Dag name:postrgres-connecter","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T16:09:40.835895","level":"info","event":"Executing: \n            CREATE TABLE if not exists Orders (\n                OrderID INT PRIMARY KEY,\n                Status VARCHAR(50)\n            )\n        ","logger":"airflow.task.operators.airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator"}
+{"timestamp":"2025-06-20T16:09:40.866350","level":"info","event":"Connection Retrieved 'postgres_airflow_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-20T16:09:40.874739","level":"info","event":"Connection Retrieved 'postgres_airflow_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-20T16:09:40.886659","level":"info","event":"Running statement: \n            CREATE TABLE if not exists Orders (\n                OrderID INT PRIMARY KEY,\n                Status VARCHAR(50)\n            )\n        , parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T16:09:40.910702Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T16:09:40.911346Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T16:09:40.911717Z","level":"info","event":"Task operator:<Task(SQLExecuteQueryOperator): recreate_postgres_table>","chan":"stdout","logger":"task"}
