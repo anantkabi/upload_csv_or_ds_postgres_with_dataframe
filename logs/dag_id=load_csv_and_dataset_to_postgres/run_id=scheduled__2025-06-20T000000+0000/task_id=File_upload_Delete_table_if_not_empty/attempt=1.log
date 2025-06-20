@@ -1,0 +1,14 @@
+{"timestamp":"2025-06-20T18:36:15.496667","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-20T18:36:15.499980","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/file_to_postgres_dataframe.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:36:17.967476Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:17.975104Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:17.979192Z","level":"info","event":"Current task name:File_upload_Delete_table_if_not_empty","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:17.980373Z","level":"info","event":"Dag name:load_csv_and_dataset_to_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:17.974133","level":"info","event":"Connection Retrieved 'postgres_airflow_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-20T18:36:18.041376","level":"info","event":"Running statement: SELECT COUNT(*) FROM loan_data;, parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T18:36:18.052628","level":"info","event":"Rows affected: 1","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T18:36:18.057696Z","level":"info","event":"Table loan_data is empty. No action taken.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:18.058969","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-06-20T18:36:18.107974Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:18.108894Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:18.109702Z","level":"info","event":"Task operator:<Task(PythonOperator): File_upload_Delete_table_if_not_empty>","chan":"stdout","logger":"task"}

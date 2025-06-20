@@ -1,0 +1,13 @@
+{"timestamp":"2025-06-20T18:36:19.943837","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-20T18:36:19.945784","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/file_to_postgres_dataframe.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:36:23.068644Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:23.069931Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:23.070728Z","level":"info","event":"Current task name:Dataset_upload_Insert_iris_data_into_postgres_db_using_hook_and_df","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:23.072337Z","level":"info","event":"Dag name:load_csv_and_dataset_to_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:23.070270","level":"info","event":"Connection Retrieved 'postgres_airflow_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-20T18:36:23.734341","level":"info","event":"Loaded 150 rows into iris_data so far","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T18:36:23.735017","level":"info","event":"Done loading. Loaded a total of 150 rows into iris_data","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T18:36:23.740469","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-06-20T18:36:23.787007Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:23.787881Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:36:23.788561Z","level":"info","event":"Task operator:<Task(PythonOperator): Dataset_upload_Insert_iris_data_into_postgres_db_using_hook_and_df>","chan":"stdout","logger":"task"}

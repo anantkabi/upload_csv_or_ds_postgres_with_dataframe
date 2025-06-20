@@ -1,0 +1,13 @@
+{"timestamp":"2025-06-20T18:38:13.111737","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-20T18:38:13.112579","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/file_to_postgres_dataframe.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:38:14.376378Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:14.389175Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:14.389762Z","level":"info","event":"Current task name:Dataset_upload_Re-create_postgres_table_if_not_exists","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:14.390103Z","level":"info","event":"Dag name:load_csv_and_dataset_to_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:14.340015","level":"info","event":"Executing: \n            CREATE TABLE IF NOT EXISTS public.iris_data (\n                sepal_length_cm FLOAT,\n                sepal_width_cm FLOAT,\n                petal_length_cm FLOAT,\n                petal_width_cm FLOAT,\n                target INTEGER\n                )\n        ","logger":"airflow.task.operators.airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator"}
+{"timestamp":"2025-06-20T18:38:14.376842","level":"info","event":"Connection Retrieved 'postgres_airflow_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-20T18:38:14.400898","level":"info","event":"Connection Retrieved 'postgres_airflow_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-20T18:38:14.415617","level":"info","event":"Running statement: \n            CREATE TABLE IF NOT EXISTS public.iris_data (\n                sepal_length_cm FLOAT,\n                sepal_width_cm FLOAT,\n                petal_length_cm FLOAT,\n                petal_width_cm FLOAT,\n                target INTEGER\n                )\n        , parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T18:38:14.458865Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:14.461594Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:14.462289Z","level":"info","event":"Task operator:<Task(SQLExecuteQueryOperator): Dataset_upload_Re-create_postgres_table_if_not_exists>","chan":"stdout","logger":"task"}

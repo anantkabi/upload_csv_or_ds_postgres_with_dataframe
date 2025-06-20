@@ -236,3 +236,15 @@
 {"timestamp":"2025-06-20T18:48:58.035964","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-06-20T18:49:28.761358","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-06-20T18:49:59.439970","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:50:30.368656","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:51:00.951285","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:51:31.814605","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:52:02.174881","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:52:32.838606","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:53:03.614546","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:53:33.849572","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:54:04.296986","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:54:34.886368","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:55:05.232673","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:55:35.479751","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:56:06.133262","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/docker_airflow_postgres_connecter.py","logger":"airflow.models.dagbag.DagBag"}

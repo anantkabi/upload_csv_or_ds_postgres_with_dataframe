@@ -1,0 +1,16 @@
+{"timestamp":"2025-06-20T18:38:15.880087","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-20T18:38:15.882016","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/file_to_postgres_dataframe.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T18:38:16.860178Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:16.861469Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:16.861964Z","level":"info","event":"Current task name:Dataset_upload_Delete_table_if_not_empty","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:16.862330Z","level":"info","event":"Dag name:load_csv_and_dataset_to_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:16.871639","level":"info","event":"Connection Retrieved 'postgres_airflow_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-20T18:38:16.880757","level":"info","event":"Running statement: SELECT COUNT(*) FROM iris_data;, parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T18:38:16.886958","level":"info","event":"Rows affected: 1","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T18:38:16.898134","level":"info","event":"Running statement: delete from iris_data;, parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T18:38:16.903033","level":"info","event":"Rows affected: 150","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-06-20T18:38:16.906045Z","level":"info","event":"Table iris_data data deleted because it contained 150 rows.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:16.906705","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-06-20T18:38:16.937496Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:16.938021Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T18:38:16.938322Z","level":"info","event":"Task operator:<Task(PythonOperator): Dataset_upload_Delete_table_if_not_empty>","chan":"stdout","logger":"task"}
