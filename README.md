@@ -50,6 +50,8 @@ Put your `loan_data.csv` file in the `dags/data/` directory.
 ```bash
 docker-compose up -d
 ```
+![image](https://github.com/user-attachments/assets/d6383f27-e315-40c8-897b-2ff063ab57f1)
+
 Then visit `http://localhost:8080` to trigger the DAG.
 
 5. **Configure Airflow connection**
