@@ -56,6 +56,19 @@ Then visit `http://localhost:8080` to trigger the DAG.
 
 Set up a PostgreSQL connection in Airflow with the ID: `postgres_airflow_conn`.
 
+6. **Run the DAG 'load_csv_and_dataset_to_postgres'**
+
+This step will create load_data table and add data into it for reporting purpose.
+
+7. **Visit Metabase setup page at `http://localhost:3000` **
+
+If your metabase services are properly working and started, you would see a metabase UI
+
+8. **Setup Metabase connection with airflow postgres DB as per below **
+![image](https://github.com/user-attachments/assets/82547ba0-33e7-471c-882d-840c4fd7ef96)
+
+9. **Feel free to create various dashboard from your table/data**
+
 ## 📊 Example DAG Tasks
 
 - `File_upload_Re-create_postgres_table_if_not_exists`: Re-Creates the `loan_data` table if it doesn't exist to upload data from a csv file
