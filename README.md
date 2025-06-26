@@ -1,8 +1,8 @@
 
 ```markdown
-# Upload CSV or Dataset to PostgreSQL with DataFrame using Airflow
+# Upload CSV or Dataset to PostgreSQL with DataFrame using Airflow airflow and Python with Metabase integration
 
-This project demonstrates how to automate the process of loading a CSV or dataset into a PostgreSQL database using Apache Airflow. It includes a DAG that reads a CSV file into a Pandas DataFrame and inserts the data into a PostgreSQL table using `PostgresHook`.
+This project demonstrates how to automate the process of loading a CSV or dataset into a PostgreSQL database using Apache Airflow. It includes a DAG that reads a CSV file into a Pandas DataFrame and inserts the data into a PostgreSQL table using `PostgresHook`. Metabase setup is also included now with this setup for visualization and reporting purpose.
 
 ## 🚀 Features
 
