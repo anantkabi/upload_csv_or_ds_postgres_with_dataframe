@@ -64,6 +64,9 @@ This step will create load_data table and add data into it for reporting purpose
 
 If your metabase services are properly working and started, you would see a metabase UI
 
+![image](https://github.com/user-attachments/assets/a3f83b37-afc8-4c75-b730-0b1307f21b88)
+
+
 8. **Setup Metabase connection with airflow postgres DB as per below**
 ![image](https://github.com/user-attachments/assets/82547ba0-33e7-471c-882d-840c4fd7ef96)
 
