@@ -60,11 +60,11 @@ Set up a PostgreSQL connection in Airflow with the ID: `postgres_airflow_conn`.
 
 This step will create load_data table and add data into it for reporting purpose.
 
-7. **Visit Metabase setup page at `http://localhost:3000` **
+7. **Visit Metabase setup page at `http://localhost:3000`**
 
 If your metabase services are properly working and started, you would see a metabase UI
 
-8. **Setup Metabase connection with airflow postgres DB as per below **
+8. **Setup Metabase connection with airflow postgres DB as per below**
 ![image](https://github.com/user-attachments/assets/82547ba0-33e7-471c-882d-840c4fd7ef96)
 
 9. **Feel free to create various dashboard from your table/data**
